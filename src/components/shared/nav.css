@@ -1,0 +1,111 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: nowrap;
+    background-color: var(--background2);
+    color: var(--textcolor1);
+    transition: all .5s;
+    width: 35%;
+    max-width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.nav-menu{
+    color: #8ab038;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.nav img {
+    width: 110px;
+    margin: 50px 20px 20px;
+    transition: .5s;
+}
+
+.nav h3 {
+    opacity: 1;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 30px 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav ul li {
+    cursor: pointer;
+    padding: 15px 10px;
+    transition: all .5s;
+    width: 100%;
+    text-align: start;
+    color: var(--textcolor1);
+    display: flex;
+}
+
+.nav ul li .icon {
+    margin: 0 10%;
+}
+
+.nav ul li:hover {
+    background-color: var(--buttonhover1) !important;
+    color: var(--textcolor3);
+}
+
+
+.nav ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 950px) {
+    .nav {
+       position: fixed;
+       width: 50px;
+       max-width: 300px;
+    }
+    .nav img {
+        width: 50px;
+        margin: 40px 0;
+    }
+    .nav h3 {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav {
+       position: fixed;
+    }
+}
+
+.logout {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    transition: .5s;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-wodj9l-MuiSvgIcon-root {
+    color: #8ab038 !important;
+    transition: .5s;
+}

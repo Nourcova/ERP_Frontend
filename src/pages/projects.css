@@ -1,0 +1,151 @@
+.projects {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 15px;
+    background-color: var(--background3);
+    transition: .5s;
+    height: 100%;
+}
+
+.projects .projects_table {
+    border-radius: 8px !important;
+    margin: 15px;
+}
+
+.projects .projects_table .button_table {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.model-title {
+    color: var(--textcolor1);
+    margin: 30px;
+    text-align: center;
+}
+
+.css-70qvj9 {
+    justify-content: space-between;
+    width: 90%;
+    max-width: 600px;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 85%;
+}
+
+.body-list {
+    display: flex;
+    background-color: var(--background1);
+    padding: 10px;
+    height: 225px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.body-list>li {
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color: var(--background3);
+    border-radius: 8px;
+}
+
+.body-list>li>span {
+    padding: 5px;
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    width: 85px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.employee-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--background1);
+    overflow-y: scroll;
+    width: 85%;
+    height: 100%;
+
+}
+
+.employee-list li {
+    margin: 5px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    background-color: var(--background3);
+    padding: 10px 15px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.employee-list li span {
+    padding: 5px;
+    width: 90%;
+}
+
+.css-u10yem {
+    width: 80% !important;
+    max-width: 450px !important;
+    height: 25% !important;
+    display: flex !important;
+    justify-content: center;
+}
+
+.css-u10yem form {
+    display: flex;
+    align-items: center;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    top: -5px !important;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #2e7d32 !important;
+}
+
+.css-l9j9ly-MuiTableContainer-root {
+    border-radius: 8px !important;
+  }
+  
+.css-86ygas-MuiTypography-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.css-zdbhz2 {
+    width: 80% !important;
+    max-width: 400px !important;
+    height: auto !important;
+}
+
+.form-role{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-role .form-button{
+    margin-top: 20px;
+}
+
+/* @media only screen and (min-width : 940px) and (max-width : 1100px) {
+    .css-i4bv87-MuiSvgIcon-root {
+        display: none !important;
+    }
+} */

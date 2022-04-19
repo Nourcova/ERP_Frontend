@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.has-search .form-control {
+  padding: 8px 2.375rem;
+  font-size: 12px;
+  border-radius: 8px;
+  transition: all .5s;
+}
+
+.has-search {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.has-search .form-control:focus-visible {
+  outline: 0;
+  box-shadow: inset 0 0 5px 0.2px var(--buttonhover1);
+  border: 1px solid var(--buttonhover1);
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2=.375rem;
+  line-height: 1.975rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+@media (max-width: 520px) {
+  .main {
+    margin: 5px;
+  }
+
+  .has-search .form-control {
+    width: 100%;
+  }
+}

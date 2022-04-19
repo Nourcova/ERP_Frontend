@@ -1,0 +1,180 @@
+.Edit_Project {
+    color: var(--textcolor1);
+    background-color: var(--background3);
+    max-width: 900px;
+    margin: 0 auto;
+    transition: all .5s;
+}
+
+.Edit_Project .Project_Name {
+    text-align: left;
+    margin: 0px 30px;
+    color: var(--textcolor1);
+    padding: 10px;
+}
+
+.Edit_Project .Edit_Form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+    margin: 5px 15px;
+    background-color: var(--background5);
+    border-radius: 8px;
+    align-items: center;
+    transition: all .5s;  
+}
+
+.Edit_Project .input_p_name{
+    margin: 0px 10px 0px 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid #D2CACA;
+    font-weight: 400;
+    transition: all .3s;
+    color: #39451f; 
+}
+
+.Edit_Project .input_p_name:focus-visible{
+    outline: 0;
+    box-shadow: inset 0 0 2px 0.2px var(--buttonhover1);
+    border: 1px solid var(--buttonhover1);
+}
+
+.Edit_Project .inpit_p_progress{
+    margin: 0px 10px 0px 10px;
+}
+
+.Edit_Project label{
+    color: var(--textcolor1);
+}
+
+/***************
+            **************/
+
+.Edit_Project .Editing-Tables {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: var(--background5);
+    border-radius: 8px;
+    justify-content: space-around;
+    transition: all .5s;  
+    height: 320px;
+}
+
+@media (max-width : 750px) {
+    .Edit_Project .Editing-Tables {
+        height: 260px;
+    }
+}
+
+@media (max-width : 450px) {
+    .Edit_Project .Editing-Tables {
+        height: 200px;
+    }
+}
+
+.Edit_Project .E_list01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Edit_Project .E_list {
+    overflow: auto;
+    margin: 5px 0;
+    height: 200px;
+}
+
+.Edit_Project .E_table {
+    flex: 0 0 60%;
+    max-width: 100%;
+    height: 250px;
+}
+
+@media (max-width : 550px) {
+    .Edit_Project .E_table {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width : 800px) {
+    .Edit_Project .E_list {
+        height: 150px;
+    }
+}
+
+@media (max-width : 450px) {
+    .Edit_Project .E_list {
+        height: 75px;
+    }
+}
+
+.Edit_Project .E_table .E_table_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Edit_Project .E_table .E_table_header *{
+    margin: 5px;
+}
+
+.Edit_Project .E_table li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Edit_Project .Buttons{
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Edit_Project .Roles{
+    margin-top: 10px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: var(--background9);
+    border-radius: 8px;
+    transition: all .5s;  
+}
+
+.dropdown p {
+    width: 100%;
+    color: var(--textcolor1);
+}
+
+.css-meedmd-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    color: var(--textcolor1) !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    color: var(--textcolor1) !important;
+}
+
+.css-10drtbx-MuiButtonBase-root-MuiCheckbox-root {
+    color: var(--textcolor1) !important;
+}
+
+.css-10drtbx-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+    color: #2e7d32 !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #e2e2e2;
+}

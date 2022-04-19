@@ -1,0 +1,87 @@
+.employees {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 15px;
+  background-color: var(--background3);
+  transition: .5s;
+  position: relative;
+  height: 100%;
+}
+
+.employees .employees_table .button_table {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.employees .employees_table {
+  border-radius: 8px !important;
+  margin: 15px;
+  margin-top: 0px;
+
+}
+
+.employees_table .css-16smohf-MuiTableCell-root.MuiTableCell-head {
+  background-color: #8AB038;
+  color: #EDEDED;
+}
+
+.employees .css-16c3n38-MuiTableRow-root {
+  color: var(--textcolor1);
+  background-color: var(--background2);
+}
+
+.editemployee img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.editemployee h2 {
+  text-align: center;
+}
+
+.editemployee form {
+  max-width: 10 0%;
+  margin-right: 0px;
+  margin-top: 20px;
+  text-align: center;
+  width: auto;
+}
+
+
+
+.modal-size-edit {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+}
+
+
+.button-employee-edit {
+  display: flex;
+  place-content: center;
+}
+
+@media (max-width: 470px) {
+  .modal-size-edit {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 190px;
+  }
+
+  .editemployee h2 {
+    font-size: 20px;
+  }
+
+  .editemployee Buttons {
+    font-size: 10px;
+  }
+}
+
+.css-rorn0c-MuiTableContainer-root {
+  border-radius: 8px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 12px !important;
+}

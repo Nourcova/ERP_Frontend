@@ -1,0 +1,37 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--background3);
+    transition: .5s;
+    margin: 10px 5%;
+}
+
+.Header img {
+    /* border-radius: 50%; */
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+}
+
+.Header h6 {
+    color: var(--textcolor1);
+    transition: .5s;
+}
+
+
+
+@media (max-width: 470px) {
+
+    .Header img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .Header h6 {
+        font-size: 15px;
+    }
+
+}

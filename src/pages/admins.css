@@ -1,0 +1,78 @@
+.admins{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 15px;
+    background-color: var(--background3);
+    transition: .5s;
+    position: relative;
+    height: 100%;
+}
+
+.main_row .button_table {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0s linear;
+}
+
+.main_row:hover .button_table {
+    visibility: visible;
+    opacity: 1;
+}
+
+.admins .admins_table .button_table {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.admins .admins_table {
+    border-radius: 8px !important;
+    margin: 15px;
+}
+
+
+.editadmin img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editadmin h2 {
+    text-align: center;
+}
+
+.editadmin form {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-top: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.modal-size-edit {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 0px;
+}
+
+.button-edit {
+    display: flex;
+    place-content: center;
+}
+
+.admins_table .css-1rd0h5u-MuiTableCell-root {
+    color: #ededed;
+    background-color: #8ab038;
+}
+
+.admins_table .css-1q2b6wi-MuiTableCell-root {
+    font-weight: normal;
+    color: var(--textcolor1);
+    text-align: start;
+    transition: .5s;
+}
+
+.css-1xtozoh-MuiTableRow-root {
+    background: var(--background2);
+    transition: .5s;
+}
+

@@ -1,0 +1,81 @@
+.Edit-Team{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1100px;
+    height: 570px;
+    overflow-y: overlay;
+}
+
+.Edit-Team .Team-Name{
+    width: 40%;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 25px;
+    color :var(--textcolor1);
+}
+
+.Edit-Team .Editing-Tables{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 900px;
+    background: var(--background5);
+    border-radius: 8px;
+    transition: 0.5s;
+ }
+
+ .Edit-Team .Editing-Tables .E_table{
+    background-color: var(--background6);
+    padding: 20px 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 20px;
+    width: 220px;
+ }
+
+ .Edit-Team h3{
+   color: var(--textcolor1);
+ }
+
+.Edit-Team h4{
+    border-bottom: 1px solid var(--textcolor);
+    color: var(--textcolor1);
+    margin-bottom: 20px;
+}
+
+.Edit-Team .E_list{
+    overflow: auto;
+    height: 200px;    
+    margin-bottom: 35px;
+    overflow-y: overlay;
+}
+
+.Edit-Team .E_table li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--textcolor1);
+    padding: 0 10px;
+    background: var(--background9);
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.Edit-Team .Buttons{
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.Modal-Buttons{
+    display: flex;
+    flex-wrap: wrap;
+    /* color: var(--textcolor); */
+    justify-content: space-around;
+    /* background-color: red; */
+}

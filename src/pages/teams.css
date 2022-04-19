@@ -1,0 +1,41 @@
+.teams {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 15px;
+    background-color: var(--background3);
+    transition: .5s;
+    position: relative;
+    height: 100%;
+}
+
+.teams .teams_table .button_table {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.teams .teams_table {
+    border-radius: 8px !important;
+    margin: 15px;
+}
+
+.modal-size-edit-addteam {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 190px;
+}
+
+.teams_table .css-16smohf-MuiTableCell-root.MuiTableCell-head {
+    background-color: #8ab038;
+    color: #ededed;
+}
+
+.teams_table td,
+th {
+    background-color: var(--background2);
+}
+
+.teams .css-pg666t-MuiTableCell-root.MuiTableCell-body {
+    color: var(--textcolor1);
+    font-weight: normal;
+
+}

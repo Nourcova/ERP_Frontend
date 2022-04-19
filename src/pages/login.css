@@ -1,0 +1,97 @@
+.row>*{
+    padding: 40px 0 !important;
+}
+
+.login{
+    height: 100vh;
+    display: flex;
+}
+
+.login img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login .first-section{
+    background-color: var(--background2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 33%;
+    max-width: 33.33333333%;
+    color: var(--textcolor1);
+    transition: all .5s;
+}
+
+.login .first-section h1{
+    margin-bottom: 25px;
+}
+
+.login .first-section h5{
+    margin: 5px;
+}
+
+.login .second-section, .login .second-section form{
+    background-color: var(--background3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--textcolor2);
+    transition: all .5s;
+}
+
+.login .second-section img{
+    display: none;
+}
+
+.login .second-section div{
+    margin: 20px;
+    color: var(--textcolor1);
+    transition: all .5s;
+}
+
+.login .second-section form > *{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 350px;
+}
+
+.login .second-section form input{
+    border: 1px solid #D2CACA;
+    font-weight: 300;
+    transition: all .3s;
+    color: var(--textcolor);
+}
+
+.login .second-section form input:focus-visible{
+     outline: 0;
+     box-shadow: inset 0 0 7px 0.4px var(--buttonhover1);
+     border: 1px solid var(--buttonhover1);
+}
+
+.login .second-section form button{
+    background-color: #8ab038;
+    transition: all .5s;
+    border: none;
+    color: #ededed;
+}
+
+.login .second-section form button:hover{
+    background-color: #789341;
+}
+
+
+
+@media (max-width: 950px){
+    .login .second-section img{
+        display: block;
+    }
+    .login .first-section{
+        display: none;
+    }
+}

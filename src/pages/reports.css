@@ -1,0 +1,142 @@
+.reports {
+  margin: 0 auto;
+  padding: 15px;
+  background-color: var(--background3);
+  transition: .5s;
+  position: relative;
+}
+
+.reports_table{
+  position: relative;
+  margin-top: 20px;
+}
+
+.reports .reports_table .button_table{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.css-twbr30-MuiTableCell-root.MuiTableCell-head {
+  text-align: start;
+}
+
+.css-5wif6l-MuiTableContainer-root {
+  border-radius: 8px !important;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: overlay;
+  height: 100%;
+  margin: 10px;
+  padding: 25px;
+  position: relative;
+}
+
+
+
+/* /////////// */
+
+.row2-container{
+  width: 350px;
+  position: relative;
+}
+
+.row2-container .attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.row2-container .attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.row2-container h1:first-of-type {
+  font-weight: var(--weight1);
+  color: #8AB038;
+}
+
+.row2-container h1:last-of-type {
+  color: #8AB038;
+}
+
+.row2-container .header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.row2-container .header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: red;
+}
+
+.row2-container .box p {
+  color: #8AB038;
+}
+
+.row2-container .box {
+  border-radius: 5px;
+  box-shadow: var(--cardShadow);
+  padding: 20px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: var(--background4);
+  transition: .5s;
+}
+
+.row2-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+.row2-container .green {
+  border-top: 3px solid #8AB038;
+}
+
+.row2-container h4 {
+  color: var(--textcolor1);
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.row2-container p {
+  margin: 0 10px;
+}
+
+@media (max-width : 550px) {
+  .reports {
+    padding: 5px;
+  }
+  .cards{
+    margin: 10px 0px;
+    padding: 5px;
+  }
+  .row2-container{
+    width: 236px;
+  }
+  .row2-container .box {
+    padding: 5px;
+    margin: 35px 0px;
+  }
+  .row2-container img {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+
+
+
+

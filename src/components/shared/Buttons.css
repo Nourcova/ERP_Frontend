@@ -1,0 +1,62 @@
+.btn{
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s ease; 
+    color: white;
+}
+
+.btn--primary--solid{
+    background-color: var(--light);
+    color: white;
+}
+
+.btn--success--solid{
+    background-color: #8AB038;
+    color: white;
+}
+
+.btn--success--solid:hover{
+    transform: translateY(-3px);
+    color: white;
+}
+
+.btn--danger--solid{
+    background-color: #af4e4e;
+}
+.btn--danger--solid:hover{
+    transform: translateY(-3px);
+    color: white;
+}
+
+.btn-md{
+    font-size: 15px;
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    transition: all .3s;
+}
+
+ .btn-sn{
+    font-size: 15px;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    color: #f9f9f9;
+    align-items: center;
+    transition: all .3s;
+} 
+
+.btn-lg{
+    font-size: 15px;
+    color: white;
+    transition: all .3s;
+} 
+

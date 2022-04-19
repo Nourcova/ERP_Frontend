@@ -1,0 +1,99 @@
+/**********************
+    ReportData CSS 
+**********************/
+
+.reportData {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.report-show .nav-details .body {
+    background: var(--background7);
+    width: 90%;
+    max-width: 700px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    height: 57vh;
+}
+
+.report-show .nav-details .body .scroll {
+    background: var(--background7);
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 8px;
+    height: 51vh;
+    overflow-y: scroll;
+}
+
+@media (max-width : 750px) {
+    .report-show .nav-details .body {
+        height: 44vh;
+    }
+    .report-show .nav-details .body .scroll {
+        height: 39vh;
+    }
+    .reportGraph {
+        width: 95% !important;
+        height: 345px !important;
+    }
+}
+
+.report-show .nav-details .body .scroll .details {
+    background: var(--background8);
+    border-radius: 8px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: #39451F;
+}
+
+.report-show .nav-details .body .scroll .details .detail h6 {
+    font-weight: 300;
+}
+
+.report-show .nav-details .body .scroll .details .detail h5 {
+    margin: 0;
+}
+
+/**********************
+    ReportGraph CSS 
+**********************/
+
+.reportGraph {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-items: center;
+    background-color: var(--background7);
+    height: 400px;
+    border-radius: 8px;
+    padding: 40px 20px 10px;
+    position: relative;
+}
+
+.reportGraph-body {
+    height: 400px;
+    overflow-y: scroll;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 450px) {
+    .reportGraph {
+        width: 100%;
+        overflow-y: hidden;
+        height: auto;
+    }
+
+    .reportGraph> :first-child {
+        margin-top: 30px;
+    }
+}

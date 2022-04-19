@@ -1,0 +1,33 @@
+.dashboard {
+    display: flex;
+    height: auto;
+}
+
+.dashboard .dashboard-body {
+    width: 100%;
+    background-color: var(--background3);
+    transition: .5s;
+    z-index: 3;
+}
+
+.dashboard .dashboard-body {
+    margin-left: 250px;
+ }
+
+@media (max-width: 950px) {
+    .dashboard .dashboard-body {
+        margin-left: 50px;
+     }
+}
+
+@media (max-width: 1024px) {
+    .dashboard {
+        height: inherit;
+    }
+}
+
+@media (max-width: 550px) {
+    .dashboard {
+        height: auto;
+    }
+}
