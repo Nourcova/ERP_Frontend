@@ -53,7 +53,7 @@ function Reports(props) {
                                 :
                                 <div className="row2-container">
                                     <div className="box green">
-                                    <img src={`http://127.0.0.1:8000/image/${employee.image}`} alt='' />
+                                    <img src={`https://sleepy-wave-82877.herokuapp.com/image/${employee.image}`} alt='' />
                                     <h4>{employee.first_name + ' ' + employee.last_name}</h4>
                                     <p>{employee.team?.name}</p>
                                     <div className="button_table">

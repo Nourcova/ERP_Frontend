@@ -506,7 +506,7 @@ function Employees(props) {
                                         <StyledTableCell align="left" style={{ paddingTop: "12px", paddingBottom: "12px" }} > 
                                         <img
                                             alt=''
-                                            src={`http://127.0.0.1:8000/image/${row.image}`}
+                                            src={`https://sleepy-wave-82877.herokuapp.com/image/${row.image}`}
                                             style={{     
                                                 width: '25px',
                                                 height: '25px',

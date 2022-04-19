@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <div className='Header'>
       <img
-        src={`http://127.0.0.1:8000/image/${props.adminImage}`}
+        src={`https://sleepy-wave-82877.herokuapp.com/image/${props.adminImage}`}
         alt="Avatar" style={{ marginLeft: 20, borderRadius: '40px' }} />
       <h6>
         {props.adminName}

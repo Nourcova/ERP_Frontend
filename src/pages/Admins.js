@@ -213,7 +213,7 @@ function Admins(props) {
                     <StyledTableCell align="left" style={{ paddingTop: "12px", paddingBottom: "12px" }} >
                       <img
                         alt=''
-                        src={`http://127.0.0.1:8000/image/${a.image}`}
+                        src={`https://sleepy-wave-82877.herokuapp.com/image/${a.image}`}
                         style={{     
                           width: '25px',
                           height: '25px',
@@ -337,7 +337,7 @@ function Admins(props) {
                         <img className='imgAdmin'
                         alt=''
                           onClick={changeImage}
-                          src={`http://127.0.0.1:8000/image/${formValues.image}`}
+                          src={`https://sleepy-wave-82877.herokuapp.com/image/${formValues.image}`}
                           style={{
                             width: ' 200px',
                             height: '200px',
@@ -431,7 +431,7 @@ function Admins(props) {
                         <img className='imgAdmin'
                         alt=''
                           onClick={changeImage}
-                          src={`http://127.0.0.1:8000/image/${formValues.image}`}
+                          src={`https://sleepy-wave-82877.herokuapp.com/image/${formValues.image}`}
                           style={{
                             width: ' 200px',
                             height: '200px',
@@ -506,7 +506,7 @@ function Admins(props) {
               :
               <div className="row2-container">
                 <div className="box green">
-                  <img src={`http://127.0.0.1:8000/image/${admin.image}`} alt='' />
+                  <img src={`https://sleepy-wave-82877.herokuapp.com/image/${admin.image}`} alt='' />
                   <h4>{admin.name}</h4>
                   <div className="button_table">
 
