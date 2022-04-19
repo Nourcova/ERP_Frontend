@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import axios from 'axios'
 
 axios.defaults.headers.common['Authorization'] = 'Bearer' + localStorage.getItem('token');
+axios.defaults.headers.common['Access-Control-Allow-Origin']= '*' 
 
 ReactDOM.render(
   <React.StrictMode>
