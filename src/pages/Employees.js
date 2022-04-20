@@ -251,7 +251,7 @@ function Employees(props) {
         formData.append("phone", formPhone);
         formData.append("image", formImage);
 
-        await axios.post(`https://sleepy-wave-82877.herokuapp.com/api/employees/`, formData)
+        await axios.post(`https://sleepy-wave-82877.herokuapp.com/api/employees`, formData)
             .then(res => {
                 console.log(res)
                 if (res.data.status === 200) {
@@ -358,7 +358,7 @@ function Employees(props) {
         setKpi({ name: e.target.value });
     }
     const handleSubmitKpi = async () => {
-        await axios.post(`https://sleepy-wave-82877.herokuapp.com/api/kpi/`, kpi).then(response => {
+        await axios.post(`https://sleepy-wave-82877.herokuapp.com/api/kpi`, kpi).then(response => {
             console.log(response);
             getAllKpis();
         })
