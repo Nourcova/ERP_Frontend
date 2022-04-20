@@ -55,7 +55,7 @@ export default function AddAdmin(props) {
     formData.append("password", formPassword);
     formData.append("image", formImage);
 
-    await axios.post(`https://sleepy-wave-82877.herokuapp.com/api/admins/`, formData)
+    await axios.post(`https://sleepy-wave-82877.herokuapp.com/api/admins`, formData)
       .then(res => {
         console.log(res)
         if (res.data.status === 200) {

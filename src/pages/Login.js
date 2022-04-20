@@ -16,7 +16,7 @@ function Login(props) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    var admin = { email, password }
+    var admin = { email:'ibrahim@hotmail.com', password:'123456' }
     axios.post(`https://sleepy-wave-82877.herokuapp.com/api/login`, admin)
       // .then(response => console.log('response', response.data.data.original.token))
       .then(response => {

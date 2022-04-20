@@ -84,7 +84,7 @@ function Admins(props) {
   }, [])
   //All Admins
   function getAdmins() {
-    axios.get(`https://sleepy-wave-82877.herokuapp.com/api/admins/`)
+    axios.get(`https://sleepy-wave-82877.herokuapp.com/api/admins`)
       .then(response => {
         setAdmins(response.data.data)
         console.log(response.data.data)
